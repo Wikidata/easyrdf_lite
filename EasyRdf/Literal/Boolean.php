@@ -52,7 +52,6 @@ class EasyRdf_Literal_Boolean extends EasyRdf_Literal
      * @param  mixed  $value     The value of the literal
      * @param  string $lang      Should be null (literals with a datatype can't have a language)
      * @param  string $datatype  Optional datatype (default 'xsd:boolean')
-     * @return object EasyRdf_Literal_Boolean
      */
     public function __construct($value, $lang = null, $datatype = null)
     {

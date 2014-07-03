@@ -55,7 +55,6 @@ class EasyRdf_Literal_DateTime extends EasyRdf_Literal_Date
      * @param  mixed  $value     The value of the literal
      * @param  string $lang      Should be null (literals with a datatype can't have a language)
      * @param  string $datatype  Optional datatype (default 'xsd:dateTime')
-     * @return object EasyRdf_Literal_DateTime
      */
     public function __construct($value = null, $lang = null, $datatype = null)
     {
