@@ -62,10 +62,7 @@ class EasyRdf_Graph
 
     private $maxRedirects = 10;
 
-
     /**
-     * Constructor
-     *
      * If no URI is given then an unnamed graph is created.
      *
      * The $data parameter is optional and will be parsed into
@@ -77,7 +74,6 @@ class EasyRdf_Graph
      * @param  string  $uri     The URI of the graph
      * @param  string  $data    Data for the graph
      * @param  string  $format  The document type of the data (e.g. rdfxml)
-     * @return object EasyRdf_Graph
      */
     public function __construct($uri = null, $data = null, $format = null)
     {

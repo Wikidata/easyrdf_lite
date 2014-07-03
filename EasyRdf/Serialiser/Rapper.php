@@ -50,10 +50,7 @@ class EasyRdf_Serialiser_Rapper extends EasyRdf_Serialiser_Ntriples
     private $rapperCmd = null;
 
     /**
-     * Constructor
-     *
      * @param string $rapperCmd Optional path to the rapper command to use.
-     * @return object EasyRdf_Serialiser_Rapper
      */
     public function __construct($rapperCmd = 'rapper')
     {

@@ -51,11 +51,6 @@ class EasyRdf_Serialiser_Arc extends EasyRdf_Serialiser_RdfPhp
         'posh' => 'POSHRDF'
     );
 
-    /**
-     * Constructor
-     *
-     * @return object EasyRdf_Serialiser_Arc
-     */
     public function __construct()
     {
         require_once 'arc/ARC2.php';

@@ -53,11 +53,6 @@ class EasyRdf_Serialiser_GraphViz extends EasyRdf_Serialiser
     private $onlyLabelled = false;
     private $attributes = array('charset' => 'utf-8');
 
-    /**
-     * Constructor
-     *
-     * @return object EasyRdf_Serialiser_GraphViz
-     */
     public function __construct()
     {
     }

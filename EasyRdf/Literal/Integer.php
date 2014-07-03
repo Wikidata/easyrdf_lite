@@ -50,7 +50,6 @@ class EasyRdf_Literal_Integer extends EasyRdf_Literal
      * @param  mixed  $value     The value of the literal
      * @param  string $lang      Should be null (literals with a datatype can't have a language)
      * @param  string $datatype  Optional datatype (default 'xsd:integer')
-     * @return object EasyRdf_Literal_Integer
      */
     public function __construct($value, $lang = null, $datatype = null)
     {
