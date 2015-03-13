@@ -1,3 +1,10 @@
+EasyRdf 0.9.0
+=============
+Bug Fixes
+---------
+* Fix various UTF encoding issues
+
+
 EasyRdf 0.8.0
 =============
 
