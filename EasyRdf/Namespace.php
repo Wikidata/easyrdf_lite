@@ -35,6 +35,8 @@
  * @license    http://www.opensource.org/licenses/bsd-license.php
  */
 
+namespace EasyRdf;
+
 /**
  * A namespace registry and manipulation class.
  *
@@ -333,7 +335,7 @@ class EasyRdf_Namespace
                 "\$shortUri should be a string and cannot be null or empty"
             );
         }
-        
+
         if ($shortUri === 'a') {
             return self::$namespaces['rdf'] . 'type';
         } elseif (preg_match("/^(\w+?):([\w\-]+)$/", $shortUri, $matches)) {

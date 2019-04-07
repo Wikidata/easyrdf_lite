@@ -34,6 +34,8 @@
  * @license    http://www.opensource.org/licenses/bsd-license.php
  */
 
+namespace EasyRdf;
+
 /**
  * Class to serialise an EasyRdf_Graph to RDF/XML
  * with no external dependancies.

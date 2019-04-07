@@ -35,6 +35,8 @@
  * @license    http://www.opensource.org/licenses/bsd-license.php
  */
 
+namespace EasyRdf;
+
 /**
  * Class to serialise an EasyRdf_Graph to GraphViz
  *
@@ -215,7 +217,7 @@ class EasyRdf_Serialiser_GraphViz extends EasyRdf_Serialiser
      */
     protected function escapeAttributes($array)
     {
-        $items = '';
+        $items = [];
         foreach ($array as $k => $v) {
             $items[] = $this->escape($k).'='.$this->escape($v);
         }

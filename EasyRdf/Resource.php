@@ -35,6 +35,8 @@
  * @license    http://www.opensource.org/licenses/bsd-license.php
  */
 
+namespace EasyRdf;
+
 /**
  * Class that represents an RDF resource
  *

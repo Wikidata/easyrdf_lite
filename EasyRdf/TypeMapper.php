@@ -35,6 +35,8 @@
  * @license    http://www.opensource.org/licenses/bsd-license.php
  */
 
+namespace EasyRdf;
+
 /**
  * Class to map between RDF Types and PHP Classes
  *

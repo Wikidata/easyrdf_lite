@@ -35,6 +35,7 @@
  * @license    http://www.opensource.org/licenses/bsd-license.php
  */
 
+namespace EasyRdf;
 
 /**
  * Class containing static utility functions

@@ -1,11 +1,11 @@
 {
-		"name": "wikibase/easyrdf_lite",
-		"description": "EasyRdf Lite is a customized version of EasyRdf",
-		"homepage": "https://github.com/Wikidata/easyrdf_lite",
-		"license": "BSD",
-		"autoload": {
-			"psr-0": {
-				"EasyRdf_": "./"
-			}
+	"name": "wikibase/easyrdf_lite",
+	"description": "EasyRdf Lite is a customized version of EasyRdf",
+	"homepage": "https://github.com/Wikidata/easyrdf_lite",
+	"license": "BSD",
+	"autoload": {
+		"psr-4": {
+			"EasyRdf\\": "EasyRdf/"
 		}
+	}
 }

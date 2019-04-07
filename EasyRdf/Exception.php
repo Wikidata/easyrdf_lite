@@ -35,6 +35,10 @@
  * @license    http://www.opensource.org/licenses/bsd-license.php
  */
 
+namespace EasyRdf;
+
+use Exception;
+
 /**
  * EasyRdf Exception class
  *
